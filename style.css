@@ -1,0 +1,42 @@
+* {
+  background-color: black;
+}
+
+body {
+  background-color: rgb(245, 13, 13);
+  border-radius: 30px;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+}
+
+.jumbotron-1 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 90%;
+  max-width: 900px;
+  padding: 24px;
+  border: 1px solid #999;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  box-shadow: #999;
+}
+
+.jumbotron-2 {
+  width: 90%;
+  max-width: 900px;
+  padding: 24px;
+  border: 1px solid #999;
+  border-radius: 30px;
+  margin: 24px 24px 0;
+}
+
+.api-content {
+  font-weight: bolder;
+  font-style: italic;
+  color: #999;
+}
